@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+FHIR Lab is an interoperability reference infrastructure (sandbox), co-developed by UPM SILab and CSIRO, Australia as part of the Strengthening Standards Capability Project (SSCP) for improved adoption of data standards and interoperability in the Southeast Asia and Pacific region​.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+The Strengthening Standards Capability Project (SSCP) aims to support partners countries in the Southeast Asia and Pacific region to develop capacity and local expertise for the development and adoption of digital health data and interoperability standards to improve public health outcomes and enhance the ability to prevent, detect, and respond to communicable and non-communicable disease threats. SSCP is a 3-year project funded by the Department of Foreign Affairs and Trade, Australia, under the Partnerships for a Health Region (PHR) Initiative.
