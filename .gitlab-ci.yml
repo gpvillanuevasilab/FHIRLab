@@ -1,17 +1,15 @@
 image: ruby:latest
 
-variables:
-  JEKYLL_ENV: production
-  LC_ALL: C.UTF-8
-
-before_script:
-  - gem install bundler
-  - bundle install
 
 test:
+  variables:
+    JEKYLL_ENV: production
+    LC_ALL: C.UTF-8
   stage: build
   script:
-  - bundle exec jekyll build -d site
+      - gem install bundler
+      - bundle install
+      - bundle exec jekyll build -d site
   artifacts:
     paths:
     - site
