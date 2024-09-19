@@ -1,0 +1,210 @@
+header {
+    background-color: #ffffff; /* Background color for the header */
+    padding: 0px 0; /* Vertical padding for header */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    height: 100px;
+    border-bottom: 1px solid #ddd; /* Added grey border */
+}
+
+header .inner {
+    max-width: 1000px; /* Maximum width for the centered content */
+    width: 100%; /* Ensure it takes up full width until the max-width is reached */
+    text-align: left; /* Left-align the text */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    padding: 0; /* Add some padding to the sides */
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+header .logo span.title {
+    font-size: 1.7em;
+    font-weight: 500;
+    color: #00a8ce; /* Text color for the title */
+    margin-left: 0px;
+}
+
+header p {
+    color: 333333; /* Text color for the description */
+    max-width: 1000px; /* Maximum width for the description text */
+    margin: 0; /* Remove default margin */
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+header .tagline {
+    font-size: 1em;
+    margin-top: 10px;
+    display: block;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    height: 100%;
+}
+
+main {
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    text-align: left;
+    
+}
+
+.intro-paragraph {
+    text-align: left;
+    margin: 20px auto 40px auto; /* This centers the paragraph within its container */
+    text-align: left; /* This left-aligns the text inside the paragraph */
+    width: 1000px;
+    margin-bottom: 50px;
+}
+
+.tile-container {
+    display: flex;
+    justify-content: left;
+    gap: 16px;
+    width: 1000px;
+    margin: 20px auto 40px auto; /* This centers the paragraph within its container */
+    flex-wrap: wrap;
+    gap: 16px; /* Add space between tiles */
+    align-items: flex-start; /* Ensures all tiles are top-aligned */
+}
+
+.tile {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 300px;
+    height: 180px;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: flex-start; /* Ensures content inside the tile is top-aligned */
+    /*justify-content: space-between; /* This aligns the button at the bottom */
+}
+
+.tile p {
+    font-size: 0.8em;
+}
+
+.tile button {
+    background-color: #00a8ce;
+    color: white;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    font-size: .8em;
+    align-self: center; /* This centers the button horizontally within the tile */
+    margin-top: auto; /* This ensures the button is pushed to the bottom */
+}
+
+.partners-section {
+    margin-top: 100px; /* Adds space above the partner logos section */  
+    gap: 16px;
+    width: 1000px;
+    margin: 20px auto 40px auto; /* This centers the paragraph within its container */
+    gap: 16px; /* Add space between tiles */
+    padding-top: 50px;
+}
+
+.partners-section h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px; /* Adds space below the heading */
+    color: #686666; 
+}
+
+.partners-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left; /* Centers the logos */
+    gap: 20px; /* Space between logos */
+    flex-wrap: wrap;
+    margin: 20px auto 40px auto; /* This centers the paragraph within its container */
+}
+
+.partner-logo {
+    width: 300px; /* Ensures logos have the same width */
+    height: auto; /* Maintains the aspect ratio of the logos */
+    padding: 10px;
+    box-sizing: border-box;
+    object-fit: contain;
+    display: flex;
+    justify-content: start;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto; /* Pushes the footer to the bottom */
+    min-height: 100%; /* Ensure the wrapper takes at least 100% of the viewport height */
+    border-top: 1px solid #ddd; /* Added grey top border */
+}
+
+.partner-logos img {
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: Left;
+    padding: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    
+}
+
+.footer-left {
+    width: 50%;
+}
+
+.footer-right {
+    text-align: left;
+    margin-left: 20px;
+    
+}
+
+.footer-left h3,
+.footer-right h3 {
+    margin-bottom: 10px;
+    text-align: left;
+    color: #5c5b5b;
+}
+
+footer p {
+    color: 333333; /* Text color for the description */
+    max-width: 1000px; /* Maximum width for the description text */
+    margin: 0; /* Remove default margin */
+    font-family: sans-serif;
+    color: #686666;
+}
+
+.link-style {
+    color: #00a8ce;       /* Set the color to blue */
+    text-decoration: none; /* Remove the underline */
+}
+
+.link-style:hover {
+    text-decoration: none; /* Optional: add underline on hover */
+}
+.link-style2 {
+    color: #00a8ce; 
+    text-decoration: none; /* Remove the underline */
+}
+
+.link-style:hover2 {
+    color: #00a8ce; 
+    text-decoration: none; /* Optional: add underline on hover */
