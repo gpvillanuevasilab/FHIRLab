@@ -2,11 +2,12 @@
 title: FHIR Lab
 email: silab.upm@up.edu.ph
 description: > # this means to ignore newlines until "baseurl:"
-  The Strengthening Standards Capability Project (SSCP) aims to support partners countries in the Southeast Asia and Pacific region to develop capacity and local expertise for the development and adoption of digital health data and interoperability standards to improve public health outcomes and enhance the ability to prevent, detect, and respond to communicable and non-communicable disease threats. SSCP is a 3-year project funded by the Department of Foreign Affairs and Trade, Australia, under the Partnerships for a Health Region (PHR) Initiative.
+  Join the Community of Practice.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://fhirlab.net" # the base hostname & protocol for your site
+url: "http://fhirlab.net" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 #github_username:  jekyll
+#gitlab_username:  jgsuess-csiro
 
 # Build settings
 markdown: kramdown

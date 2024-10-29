@@ -1,5 +1,20 @@
 image: ruby:latest
-   
+
+
+build:
+  variables:
+    JEKYLL_ENV: production
+    LC_ALL: C.UTF-8
+  stage: build
+  script:
+      - bundle install
+      - bundle exec jekyll build -d site
+  artifacts:
+    paths:
+    - site
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+    
 package:
   stage: deploy
   image:
@@ -13,7 +28,7 @@ package:
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
     
-pages:
+staging:
   stage: deploy
   script:
     - mkdir -p public

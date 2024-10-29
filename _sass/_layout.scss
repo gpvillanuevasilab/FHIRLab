@@ -234,3 +234,41 @@
         }
     }
 }
+
+.tile-container {
+    display: flex;
+    justify-content: left;
+    gap: 16px;
+    width: 1000px;
+    margin: 20px auto 40px auto; /* This centers the paragraph within its container */
+    flex-wrap: wrap;
+    gap: 16px; /* Add space between tiles */
+    align-items: flex-start; /* Ensures all tiles are top-aligned */
+}
+
+.tile {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 300px;
+    height: 180px;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: flex-start; /* Ensures content inside the tile is top-aligned */
+    /*justify-content: space-between; /* This aligns the button at the bottom */
+}
+
+.tile p {
+    font-size: 0.8em;
+}
+
+.tile button {
+    background-color: #00a8ce;
+    color: white;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    font-size: .8em;
+    align-self: center; /* This centers the button horizontally within the tile */
+    margin-top: auto; /* This ensures the button is pushed to the bottom */
+}
