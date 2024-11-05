@@ -28,7 +28,7 @@ package:
 #  rules:
 #    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
     
-staging:
+pages:
   stage: deploy
   script:
     - mkdir -p public
