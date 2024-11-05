@@ -53,17 +53,14 @@ However, HAPI FHIR does provide a few web-based tools to help developers and adm
 The [Web Test Page](https://cdr.fhirlab.net/) is a simple web page that allows you to manually test your FHIR server by sending HTTP requests directly to it.   
 It provides a basic interface to input FHIR resources in JSON or XML format and send them to the server.
 
-It's primarily used for debugging and testing purposes.
-Configuration Dashboard (Optional):
-
 ## Swagger UI Integration
 HAPI FHIR integrates with Swagger UI, a popular tool for visualizing and interacting with APIs. When you access the base URL of your HAPI FHIR server, you'll be automatically redirected to the [Swagger UI interface](https://cdr.fhirlab.net/fhir).
 
 The Swagger UI provides a user-friendly interface to explore the HAPI FHIR API:
 
-API Documentation: You can view detailed documentation for each API endpoint, including request parameters, response formats, and error codes.
-Interactive API Console: You can directly test API endpoints by inputting request parameters and executing the requests.
-Code Generation: You can generate client code in various programming languages (e.g., Java, Python, JavaScript) to interact with the API.
+* API Documentation: You can view detailed documentation for each API endpoint, including request parameters, response formats, and error codes.
+* Interactive API Console: You can directly test API endpoints by inputting request parameters and executing the requests.
+* Code Generation: You can generate client code in various programming languages (e.g., Java, Python, JavaScript) to interact with the API.
 
 ## Purpose of the Web interfaces
 
