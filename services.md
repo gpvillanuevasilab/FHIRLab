@@ -43,7 +43,8 @@ grid_navigation:
 
 ---
 
-Welcome. Glad we can be of service. Before you begin, please take in and heed the warning below. It is important and a condition of entry to FHIRLab's services. Otherwise, you may want to look at our [Core Components](#core-components), the surrounding [Peripherals]() and how to [keep up-to-date]() with what is happening.
+Welcome. Glad we can be of service. Before you begin, please take in and heed the warning below. It is important and a condition of entry to FHIRLab's services.
+
 
 <div class="callout callout--danger">
 <strong>Warning: Do Not Store Real Patient Information</strong>
@@ -53,6 +54,8 @@ Welcome. Glad we can be of service. Before you begin, please take in and heed th
 <strong>Only use synthetic or anonymized data for all activities.</strong>
 
 </div>
+
+Otherwise, you may want to look at our [Core Components](#core-components), the surrounding [Peripherals]() and how to [keep up-to-date]() with what is happening.
 
 # Core Components
 

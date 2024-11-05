@@ -37,7 +37,7 @@ Its documentation is located at [https://ontoserver.csiro.au/site/technical-docu
 
 # User Interfaces
 
-* The main browser-based user interfaces of our server is located here: [https://tx.fhirlab.net/](https://tx.fhirlab.net/)
+* The main browser-based user interface of our server is located here: [https://tx.fhirlab.net/](https://tx.fhirlab.net/)
 * This interface is [OntoCommand](https://ontoserver.csiro.au/site/technical-documentation/ontocommand-documentation/), a [Progressive Web App (PWA)](https://en.wikipedia.org/wiki/Progressive_web_app) whose code is hosted by CSIRO. This design means that no data is sent to CSIRO at all. All communication is between your browser and FHIRLab.
 * The OntoCommand interface also provides access to the included CSIRO terminology management applications [Shrimp](https://ontoserver.csiro.au/site/our-solutions/shrimp/) and [Snapper](https://ontoserver.csiro.au/site/technical-documentation/snapper-documentation/).
 
