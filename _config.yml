@@ -1,14 +1,45 @@
-# Site settings
-title: FHIR Lab
-email: silab.upm@up.edu.ph
-description: > # this means to ignore newlines until "baseurl:"
-  Join the Community of Practice.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://fhirlab.net" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
-#github_username:  jekyll
-#gitlab_username:  jgsuess-csiro
+# Theme settings
+doks:
+    baseurl: https://jgsuess.github.io/fhirlab-cluster-homepage/
+    color_theme: yellow # Available themes: blue (default), green, purple, red and yellow
+    header:
+        logo:
+            text:
+            image: true
+        nav:
+            - item_name: Home
+              item_url: 'https://fhir.org/'
+            - item_name: Chat
+              item_url: 'https://chat.fhir.org/'
+            - item_name: Spec
+              item_url: 'https://www.hl7.org/fhir/'
+    footer:
+        content:
+            logo:
+                text: FHIRLab
+                image:
+            copyright: Copyright &copy; 2024. - UPM SILab <br>All rights reserved.
+        social_list:
+            - network_name: facebook
+              profile_url: '#'
+            - network_name: twitter
+              profile_url: '#'
+            - network_name: instagram
+              profile_url: '#'
+            - network_name: youtube
+              profile_url: '#'
+    google_analytics:
+        tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
+    comments:
+        disqus_forum_shortname: # Add your disqus forum shortname to activate comments
 
-# Build settings
-markdown: kramdown
-permalink: /:year/:title:output_ext
+# SASS settings
+sass:
+    sass_dir: ./doks-theme/_sass
+    style: compressed
+
+# Jekyll settings
+layouts_dir: ./doks-theme/_layouts
+includes_dir: ./doks-theme/_includes
+exclude: [ 'README.md', 'CHANGELOG.md' ]
+permalink: /:title/
