@@ -43,13 +43,33 @@ grid_navigation:
 
 ---
 
-The FHIRLab FHIR Sandbox for the Philippines envisions a robust, accessible, and collaborative platform that accelerates the adoption and implementation of FHIR standards in the country's healthcare ecosystem. By providing a safe and controlled environment for experimentation, development, and testing, the sandbox empowers healthcare providers, IT professionals, and researchers to innovate and improve patient care.
+Welcome. Glad we can be of service. Before you begin, please take in and heed the warning below. It is important and a condition of entry to FHIRLab's services. Otherwise, you may want to look at our [Core Components](#core-components), the surrounding [Peripherals]() and how to [keep up-to-date]() with what is happening.
+
+<div class="callout callout--danger">
+<strong>Warning: Do Not Store Real Patient Information</strong>
+
+<p>This FHIR Sandbox is for testing and development purposes only. Do not store any real patient information on Sandbox servers. Storing real patient data on a public or unsecured server poses significant privacy and security risks.</p>
+
+<strong>Only use synthetic or anonymized data for all activities.</strong>
+
+</div>
 
 # Core Components
 
-FHIRLa
+The core components form the basic FHIR learning sandbox which includes the components below. Click to have a look.
 
-## **Clinical Data Repository**
+| Role                     | Project       | Entry Point      |
+|--------------------------|---------------|------------------------------|
+| [Clinical Data Repository](#clinical-data-repository) | HAPI          | [http://cdr.fhirlab.net](http://cdr.fhirlab.net)       |
+| [Terminology Server](#terminology-server)       | Ontoserver    | [http://tx.fhirlab.net](http://tx.fhirlab.net)        |
+| [Validator](#validator)                | HL7 Validator | [http://validator.fhirlab.net](http://validator.fhirlab.net) |
+| [Testing Tool](#testing-tool)             | Inferno       | [http://inferno.fhirlab.net](http://inferno.fhirlab.net)   |
+
+These components provide a foundation for learning and experimenting with FHIR, enabling you to create and test FHIR-based applications. They form a set of essential open source FHIR components that together form a reference for a learner and are fairly easily replicated for local experimentation.
+
+Please find details on our selected components and their roles below:
+
+## Clinical Data Repository
 
    FHIRLab's CDR is the [HAPI Server](HAPI).
    
@@ -57,7 +77,7 @@ FHIRLa
    * Stores patient records, lab results, medications, and other relevant clinical information.
    * Enables data-driven insights and supports clinical decision-making.
 
-## **Terminology Server**
+## Terminology Server
 
    FHIRLab's Terminology Server is the [Ontoserver](Ontoserver).
 
@@ -65,7 +85,7 @@ FHIRLa
    * Includes code systems, value sets, and concept maps.
    * Ensures consistent data representation and interoperability.   
 
-## **Validator**
+## Validator
 
    FHIRLab's Validator is the [HL7 Validator](Validator).
 
@@ -73,7 +93,7 @@ FHIRLa
    * Checks compliance with FHIR standards and local implementation guidelines.
    * Helps developers identify and correct errors in their FHIR implementations.   
 
-## **Testing Tool**
+## Testing Tool
 
    FHIRLab's Testing Tool is [Inferno](Inferno).
 
@@ -81,4 +101,27 @@ FHIRLa
    * Includes test data generators, performance testing tools, and security testing tools.
    * Facilitates the development of robust and secure FHIR solutions.
 
+# Peripheral Components
 
+The Peripheral Components, also known as the **Galaxy** are a dynamic learning environment designed to provide hands-on experience with cutting-edge FHIR-enabled healthcare solutions. This cluster will bring together a curated collection of industry-leading applications, and may ultimately include [Bahmni](https://www.bahmni.org/), [OpenMRS](https://openmrs.org/), and [SMILE CDR](https://www.smiledigitalhealth.com/), to offer learners a comprehensive understanding of real-world healthcare IT systems.
+
+
+By interacting with these applications within the Galaxy environment, learners can:
+
+* **Explore FHIR Interoperability:** Gain practical insights into how FHIR enables seamless data exchange between different healthcare systems.
+* **Experiment with Clinical Workflows:** Simulate real-world clinical scenarios and test various approaches to patient care.
+* **Develop Custom Solutions:** Build custom FHIR-based applications and integrations.
+* **Collaborate with Peers:** Connect with other learners and share knowledge and experiences.
+
+The Galaxy provides a safe and controlled environment to learn and experiment, empowering the next generation of healthcare IT professionals to drive innovation and improve patient care. 
+
+# Service Updates
+
+<div class="callout callout--info">
+<strong>Watch this space as we grow our environment</strong>
+
+<p>FHIRLab is constantly improving and growing. To keep up-to-date on new offerings and changes, you can subscribe to our <a href="https://en.wikipedia.org/wiki/Atom_(web_standard)">ATOM feed</a>.</p> 
+
+<strong>FHIRLabs service update atom feed is here: <a href="../../feed.xml">feed.xml</a>.</strong>
+
+</div>

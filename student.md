@@ -57,8 +57,8 @@ The potential of FHIR is immense. By mastering FHIR terminology, you can contrib
 
 **Ready to Make a Difference?**
 
-* **Explore FHIR Resources:** Dive into the official FHIR documentation and online tutorials.
-* **Join the FHIR Community:** Connect with other developers, healthcare professionals, and enthusiasts.
-* **Build FHIR-Enabled Applications:** Create innovative solutions that improve healthcare delivery.
+* **Explore Resources:** [Dive into the official FHIR documentation and online tutorials.](https://www.hl7.org/fhir/)
+* **Join the Community:** [Connect with developers, healthcare professionals, and enthusiasts.](https://chat.fhir.org)
+* **Build Applications:** [Create innovative solutions that improve healthcare delivery](https://github.com/search?q=topic%3Afhir&type=repositories).
 
 By embracing FHIR terminology, you can become part of a movement that is transforming healthcare and positively impacting people's lives.

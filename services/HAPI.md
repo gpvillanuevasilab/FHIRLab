@@ -21,11 +21,11 @@ micro_nav: true
 # Page navigation
 page_nav:
     prev:
-        content: Previous page
-        url: '#'
+        content: Validator
+        url: '../Validator'
     next:
-        content: Next page
-        url: '#'
+        content: Ontoserver
+        url: '../Ontoserver'
 
 # gemini prompt: Provide an introduction to FHIR terminology for university students. Focus on the prospect of improving people's lives through the implementation of this technology. Add a call to action for learning.
 
@@ -35,7 +35,7 @@ HAPI FHIR is a popular open-source Java-based implementation of the HL7 FHIR sta
 
 Its documentation is located at [https://hapifhir.io/hapi-fhir/docs/](https://hapifhir.io/hapi-fhir/docs/).
 
-# **User Interfaces**
+# User Interface
 
 These are the browser-based user interfaces of our server:
 

@@ -7,7 +7,7 @@ keywords:
 title: FHIRLab
 description: "A FHIR sandbox for the Philippines and beyond, made by SILab. Take the tour:"
 
-# FHIR Lab is an interoperability reference infrastructure (<a href="https://en.wikipedia.org/wiki/Sandbox_(software_development)">sandbox</a>), co-developed by <a href="https://www.upmsilab.org/">UPM SILab</a> and <a href="http://csiro.au">CSIRO, Australia</a> as part of the Strengthening Standards Capability Project (SSCP) for improved adoption of data standards and interoperability in the Southeast Asia and Pacific region​.
+# FHIRLab is an interoperability reference infrastructure (<a href="https://en.wikipedia.org/wiki/Sandbox_(software_development)">sandbox</a>), co-developed by <a href="https://www.upmsilab.org/">UPM SILab</a> and <a href="http://csiro.au">CSIRO, Australia</a> as part of the Strengthening Standards Capability Project (SSCP) for improved adoption of data standards and interoperability in the Southeast Asia and Pacific region​.
 
 buttons:
     - icon: chevron-right
@@ -38,11 +38,11 @@ grid_navigation:
       url: 'vision'
     - title: Service
       excerpt: Learn about our FHIR services.
-      cta: Light a FHIR...
+      cta: Light a FHIR ...
       url: 'services'
     - title: Community
       excerpt: Learn about our community.
-      cta: Carry the torch...
+      cta: Carry the torch ...
       url: 'community'
 
 ---
