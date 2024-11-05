@@ -12,9 +12,9 @@ build:
   artifacts:
     paths:
     - site
-  rules:
-    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
-    
+#  rules:
+#    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+
 package:
   stage: deploy
   image:
