@@ -44,7 +44,7 @@
 												<i class="icon icon--arrow-right"></i>
 											</a>
 											{% else %}
-											<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ page.author.title_url }}" class="btn btn--read-more">
+											<a href="{% if jekyll.environment == 'production' and item.external_url == false %}{{ site.doks.baseurl }}{% endif %}{{ page.author.title_url }}" class="btn btn--read-more">
 												{{ page.author.title }}
 												<i class="icon icon--arrow-right"></i>
 											</a>
