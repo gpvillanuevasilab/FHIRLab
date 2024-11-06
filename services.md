@@ -63,10 +63,10 @@ The core components form the basic FHIR learning sandbox which includes the comp
 
 | Role                     | Project       | Entry Point      |
 |--------------------------|---------------|------------------------------|
-| [Clinical Data Repository](#clinical-data-repository) | HAPI          | [http://cdr.fhirlab.net](http://cdr.fhirlab.net)       |
-| [Terminology Server](#terminology-server)       | Ontoserver    | [http://tx.fhirlab.net](http://tx.fhirlab.net)        |
-| [Validator](#validator)                | HL7 Validator | [http://validator.fhirlab.net](http://validator.fhirlab.net) |
-| [Testing Tool](#testing-tool)             | Inferno       | [http://inferno.fhirlab.net](http://inferno.fhirlab.net)   |
+| [Clinical Data Repository](#clinical-data-repository) | [HAPI](HAPI)          | [http://cdr.fhirlab.net](http://cdr.fhirlab.net)       |
+| [Terminology Server](#terminology-server)       | [Ontoserver](Ontoserver)    | [http://tx.fhirlab.net](http://tx.fhirlab.net)        |
+| [Validator](#validator)                | [HL7 Validator](Validator) | [http://validator.fhirlab.net](http://validator.fhirlab.net) |
+| [Testing Tool](#testing-tool)             | [Inferno](Inferno)       | [http://inferno.fhirlab.net](http://inferno.fhirlab.net)   |
 
 These components provide a foundation for learning and experimenting with FHIR, enabling you to create and test FHIR-based applications. They form a set of essential open source FHIR components that together form a reference for a learner and are fairly easily replicated for local experimentation.
 
