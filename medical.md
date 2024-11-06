@@ -25,7 +25,7 @@ page_nav:
 #        url: '#'
     next:
         content: Explore Terminology
-        url: '/terminology'
+        url: '../terminology'
 
 # gemini prompt: provide a gentle introduction to FHIR technology for medically trained staff. Suggest some simple experiments.
 

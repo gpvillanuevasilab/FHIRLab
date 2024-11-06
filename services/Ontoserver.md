@@ -22,10 +22,10 @@ micro_nav: true
 page_nav:
     prev:
         content: HAPI
-        url: 'service/HAPI'
+        url: 'HAPI'
     next:
         content: Validator
-        url: 'service/Validator'
+        url: 'Validator'
 
 # gemini prompt: Provide an introduction to FHIR terminology for university students. Focus on the prospect of improving people's lives through the implementation of this technology. Add a call to action for learning.
 
