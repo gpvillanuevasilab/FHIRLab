@@ -21,7 +21,7 @@ description: "A FHIR sandbox for the Philippines and beyond, made by SILab. Take
 #    - icon: chevron-right
 #      content: Student
 #      url: 'student'
-3      external_url: false
+#      external_url: false
 
 # Author box
 # author:
@@ -33,9 +33,10 @@ description: "A FHIR sandbox for the Philippines and beyond, made by SILab. Take
 # Grid navigation
 grid_navigation:
     - title: Terminology Server
-     # excerpt: CSIRO Ontoserver
+      excerpt: CSIRO Ontoserver
       cta: Try it
       url: 'https://tx.fhirlab.net'
+      external_url: true
     - title: Service
       excerpt: Learn about our FHIR services.
       cta: Light a FHIR ...
