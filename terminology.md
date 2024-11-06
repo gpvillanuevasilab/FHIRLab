@@ -26,7 +26,7 @@ page_nav:
         url: 'https://hl7.org/fhir/R5/datatypes.html#CodeableConcept'
     next:
         content: Terminology Server
-        url: 'services/Ontoserver'
+        url: 'service/Ontoserver'
         external_url: false
 
 # gemini prompt: provide a gentle introduction to FHIR terminilogy for medically trained staff. Begin with the idea of a codeable concept. Use questionnaires as a use case.
