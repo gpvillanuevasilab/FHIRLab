@@ -22,10 +22,10 @@ micro_nav: true
 page_nav:
     prev:
         content: Terminology
-        url: '../terminology'
+        url: '/terminology'
     next:
         content: Services
-        url: '../services'
+        url: '/services'
 
 # gemini prompt: provide an introduction to FHIR technology for staff in software engineering and information technology. Focus on savings of integration and ease of deployment. Offer links to standards and example instances of servers.
 

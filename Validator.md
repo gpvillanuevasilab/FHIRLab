@@ -22,10 +22,10 @@ micro_nav: true
 page_nav:
     prev:
         content: HAPI
-        url: '/services/HAPI'
+        url: 'HAPI'
     next:
         content: Inferno
-        url: '/services/Inferno'
+        url: 'Inferno'
 
 # gemini prompt: describe the HL7 FHIR validator web application
 
