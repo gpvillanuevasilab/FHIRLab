@@ -35,7 +35,7 @@ grid_navigation:
     - title: Terminology Server
       excerpt: CSIRO Ontoserver
       cta: Try it
-      url: 'https://tx.fhirlab.net'
+      title_url: 'https://tx.fhirlab.net'
       external_url: true
     - title: Service
       excerpt: Learn about our FHIR services.
