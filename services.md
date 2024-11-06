@@ -63,7 +63,7 @@ The core components form the basic FHIR learning sandbox which includes the comp
 
 | Role                     | Project       | Entry Point      |
 |--------------------------|---------------|------------------------------|
-| [Clinical Data Repository](#clinical-data-repository) | [HAPI](service/HAPI)          | [http://cdr.fhirlab.net](http://cdr.fhirlab.net)       |
+| [Clinical Data Repository](#clinical-data-repository) | [HAPI](HAPI)          | [http://cdr.fhirlab.net](http://cdr.fhirlab.net)       |
 | [Terminology Server](#terminology-server)       | [Ontoserver](Ontoserver)    | [http://tx.fhirlab.net](http://tx.fhirlab.net)        |
 | [Validator](#validator)                | [HL7 Validator](Validator) | [http://validator.fhirlab.net](http://validator.fhirlab.net) |
 | [Testing Tool](#testing-tool)             | [Inferno](Inferno)       | [http://inferno.fhirlab.net](http://inferno.fhirlab.net)   |
@@ -74,7 +74,7 @@ Please find details on our selected components and their roles below:
 
 ## Clinical Data Repository
 
-   FHIRLab's CDR is the [HAPI Server](service/HAPI).
+   FHIRLab's CDR is the [HAPI Server](HAPI).
    
    * A centralized repository of standardized health data. 
    * Stores patient records, lab results, medications, and other relevant clinical information.
