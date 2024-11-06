@@ -31,7 +31,7 @@ page_nav:
 
 ---
 
-HL7 provides a web-based FHIR validator that allows users to validate FHIR resources against the FHIR specification and Implementation Guides (IGs). This tool is essential for ensuring the accuracy and interoperability of FHIR-based systems.
+HL7 provides a web-based FHIR validatör that allows users to validate FHIR resources against the FHIR specification and Implementation Guides (IGs). This tool is essential for ensuring the accuracy and interoperability of FHIR-based systems.
 
 The documentation for the validator is located at [https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator](https://confluence.hl7.org/display/FHIR/Using+the+FHIR+Validator). The user interface has equivalent settings to all command-line options. The main flow of actions is described below.
 
